@@ -1,5 +1,5 @@
 
 [submodule "posts-microservices-frontend"]
 	path = posts-microservices-frontend
-	url = https://github.com/scalablescripts/posts-microservices-frontend
+	url = https://github.com/scalablescripts/posts-microservices-frontend.git
 	branch = main
