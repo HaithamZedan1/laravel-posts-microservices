@@ -30,7 +30,7 @@ class SyncComments extends Command
             $comments = $post->comments;
 
             $filteredComments = $allComments->filter(function ($comment) use ($post){
-                return $comment->post_id = $post->id;
+                return $comment->post_id == $post->id;
             });
 
             if(count($comments) !== $filteredComments->count()){
